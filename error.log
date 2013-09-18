@@ -1,0 +1,12 @@
+[Wed Sep 18 2013 10:20:18 GMT+0800 (CST)]/
+Error: An error for test purposes.
+    at /Users/jacklin/work/nodejs/guide/weibo/weibo/routes/index.js:24:11
+    at callbacks (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/lib/router/index.js:164:37)
+    at param (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/lib/router/index.js:138:11)
+    at pass (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/lib/router/index.js:33:10)
+    at next (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.app.configure.app.use.meta [as handle] (/Users/jacklin/work/nodejs/guide/weibo/weibo/app.js:49:2)
+    at next (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at next (/Users/jacklin/work/nodejs/guide/weibo/weibo/node_modules/express/node_modules/connect/lib/middleware/session.js:312:9)

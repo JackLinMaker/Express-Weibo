@@ -21,6 +21,7 @@ module.exports = function(app) {
 			res.render('index', {
 				title: '首页',
 			});
+			//throw new Error('An error for test purposes.');
 	});
 	
 	app.get('/reg', function(req, res) {
